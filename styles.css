@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.display, .first-row, .second-row, .third-row, .equals-button {
+    display: flex;
+    flex: 1;
+}
+
+.display {
+    border: 2px solid black;
+    font-size: 128px;
+    padding-right: 20px;
+    justify-content: right;
+}
+
+.button {
+    flex: 1;
+    font-size: 32px;
+}
+
+#btn0 {
+    flex: 1;
+}
+
+#btnequals {
+    flex: 4.32;
+}
